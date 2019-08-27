@@ -10,9 +10,9 @@ int main()
   scanf("%d",&age);
   printf("Enter phone number:\n");
   scanf("%d",&no);
-  printf("\nDetails:\n");
-  printf("Name:%s\n",name);
-  printf("Age:%d\n",age);
-  printf("Phone Number:%d\n",no);
+  printf("\nDetails:");
+  printf("\nName:%s",name);
+  printf("\nAge:%d",age);
+  printf("\nPhone Number:%d",no);
   return 0;
 }
