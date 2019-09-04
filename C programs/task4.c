@@ -3,8 +3,14 @@
 #include<string.h>
 int main()
 {
-  char fname[10],lname[10],name[20];
-  printf("ENter first name: ");
+  char fname[10],lname[10],name[20],w[]={' '};
+  printf("Enter first name: ");
   scanf("%s",fname);
+  printf("Enter last name: ");
+  scanf("%s",lname);
 
+  strcat(fname,w);
+  strcpy(name,fname);
+  strcat(name,lname);
+  printf("Name:%s",name);
 }
