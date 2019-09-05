@@ -7,19 +7,25 @@ int main()
 		int no;
 		printf("Enter a number: ");
 		scanf("%d",&no);
-		int org=no;
-		int res;
+		const int org=no;
+		int res,count=0,rem;
 		while(no>0)
 		{
-				res=res + pow(no%10,3);
+				count++;
 				no=no/10;
 		}
-		if (res=org)
+		printf("%d\n",count);
+		no=org;
+		while(no!=0)
 		{
-				printf("true");
+				rem=no%10;
+				res=res + pow(rem,count);
+				no=no/10;
 		}
+		if (res==org)
+				printf("True");
+
 		else
-		{
-				printf("false");
-		}
+				printf("False");
+
 }
