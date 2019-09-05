@@ -1,6 +1,6 @@
 //WRITE A C PROGRAM TO FIND THE REVERSE OF A GIVEN NUMBER.
 
- #include <stdio.h>
+#include <stdio.h>
 int main()
 {
 		int num=0,rev=0;
