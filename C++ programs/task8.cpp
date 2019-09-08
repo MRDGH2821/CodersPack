@@ -14,7 +14,7 @@ using namespace std;
 
 int main()
 {
-		char a[50],b[50];
+		char a[50],b[50],c[50];
 		cout<<"Enter string 1: ";
 		gets(a);
 		cout<<"Enter string 2: ";
@@ -27,7 +27,8 @@ int main()
 				{
 						for (int bi=0; bi<lb; bi++)
 						{
-
+								if (a[ai]==b[bi])
+										c[ci]=a[ai];
 						}
 				}
 		}
