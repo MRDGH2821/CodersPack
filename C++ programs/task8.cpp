@@ -24,18 +24,22 @@ int main()
 		int ci=0;
 		if (la==lb)
 		{
-				for(int ai=0; ai<la; ai++)
-				{
-						for (int bi=0; bi<lb; bi++)
-						{
-								if (a[ai]==b[bi])
-								{
-										c[ci]=a[ai];
-										ci++;
-								}
-						}
-				}
-				if(strlen(c)==la)
+				/*
+				    for(int ai=0; ai<la; ai++)
+				    {
+				            for (int bi=0; bi<lb; bi++)
+				            {
+				                    if (a[ai]==b[bi])
+				                    {
+				                            c[ci]=a[ai];
+				                            ci++;
+				                    }
+				            }
+				    }
+				    if(strlen(c)==la)*/
+				std::sort(a,a+sizeof(a));
+				std::sort(b,b+sizeof(b));
+				if(compare(a,b)==0)
 						cout<<"They are anagrams";
 		}
 		else
