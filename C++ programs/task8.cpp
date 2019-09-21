@@ -47,16 +47,16 @@ int main()
 				}
 				if(not_found==1)
 				{
-						cout<<"Strings are not Anagram to each other.";
+						cout<<str1<<" and "<<str2<<" are not anagrams.";
 				}
 				else
 				{
-						cout<<"Strings are Anagram.";
+						cout<<str1<<" and "<<str2<<" are anagrams.";
 				}
 		}
 		else
 		{
-				cout<<"Two string must have same number of character to be Anagram.";
+				cout<<str1<<" and "<<str2<<" are not of same length to be anagrams.";
 		}
 		getch();
 }
