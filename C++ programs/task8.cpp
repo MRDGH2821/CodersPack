@@ -8,40 +8,55 @@
    "spare and pears are Anagram. "
  */
 
-#include <iostream>
-#include <string.h>
-using namespace std;
 
+#include <iostream>
+#include <conio.h>
+#include <string.h>
+#include <stdio.h>
+using namespace std;
 int main()
 {
-		char a[50],b[50],c[50];
-		cout<<"Enter string 1: ";
-		gets(a);
-		cout<<"Enter string 2: ";
-		gets(b);
-		int la=strlen(a);
-		int lb=strlen(b);
-		int ci=0;
-		if (la==lb)
+
+		char str1[20],str2[20];
+		int len,len1,len2,i,j,found=0,not_found=0;
+		cout<<"Enter first string :";
+		gets(str1);
+		cout<<"Enter second string :";
+		gets(str2);
+		len1=strlen(str1);
+		len2=strlen(str2);
+		if(len1==len2)
 		{
-				/*
-				    for(int ai=0; ai<la; ai++)
-				    {
-				            for (int bi=0; bi<lb; bi++)
-				            {
-				                    if (a[ai]==b[bi])
-				                    {
-				                            c[ci]=a[ai];
-				                            ci++;
-				                    }
-				            }
-				    }
-				    if(strlen(c)==la)*/
-				std::sort(a,a+sizeof(a));
-				std::sort(b,b+sizeof(b));
-				if(compare(a,b)==0)
-						cout<<"They are anagrams";
+				len=len1;
+				for(i=0; i<len; i++)
+				{
+						found=0;
+						for(j=0; j<len; j++)
+						{
+								if(str1[i]==str2[j])
+								{
+										found=1;
+										break;
+								}
+						}
+						if(found==0)
+						{
+								not_found=1;
+								break;
+						}
+				}
+				if(not_found==1)
+				{
+						cout<<"Strings are not Anagram to each other.";
+				}
+				else
+				{
+						cout<<"Strings are Anagram.";
+				}
 		}
 		else
-				cout<<"Length must be same for anagrams."<<endl;
+		{
+				cout<<"Two string must have same number of character to be Anagram.";
+		}
+		getch();
 }
