@@ -1,7 +1,7 @@
-class circle
-{
 import java.util.Scanner;
-public class circle {
+
+//import java.util.Scanner;
+public class task1 {
 
 /* This is my first java program.
  * This will print 'Hello World' as the output
@@ -14,6 +14,5 @@ public static void main(String [] args) {
         r=in.nextInt();
         System.out.println("Area of circle is:" + 3.14*r*r);
         System.out.println("Perimeter of circle is:" + 2*3.14*r);
-}
 }
 }
