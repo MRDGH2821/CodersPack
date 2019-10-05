@@ -15,7 +15,7 @@ public static void main(String [] args) {
 	String n1;
 	String n2;
 	Scanner in = new Scanner(System.in);
-	System.out.println("Enter 2 binary numbers:\n");
+	System.out.println("Enter 2 binary numbers:");
 	n1=in.nextLine();
 	n2=in.nextLine();
 	System.out.println("Output = " + addBinary(n1,n2) );
