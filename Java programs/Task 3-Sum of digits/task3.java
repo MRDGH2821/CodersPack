@@ -1,7 +1,7 @@
 //Write a Java program and compute the sum of the digits of an integer
 import java.util.Scanner;
 
-public class task1 {
+public class task3 {
 
 public static void main(String [] args) {
 	int r,sum=0;
