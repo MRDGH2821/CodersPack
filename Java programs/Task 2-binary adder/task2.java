@@ -15,8 +15,8 @@ public static void main(String [] args) {
 	String n1;
 	String n2;
 	Scanner in = new Scanner(System.in);
-	n1=in.nextString();
-	n2=in.nextString();
+	n1=in.nextLine();
+	n2=in.nextLine();
 	System.out.println("Output = " + addBinary(n1,n2) );
 }
 }
