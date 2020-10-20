@@ -17,26 +17,23 @@ The tasks are -
 7. Write a C++ program to swap two numbers using function.
 
 8. Write a C++ program to check whether two given strings are an anagram.
-
-Test Data:
-Input the first String: spare
-Input the second String: pears
-Expected Output:
-"spare and pears are Anagram. "
+   Test Data:
+   Input the first String: spare
+   Input the second String: pears
+   Expected Output:
+   "spare and pears are Anagram. "
 
 9. Write a C++ program to convert specified days into years, weeks and days.
-
-Note: Ignore leap year.
-Test Data :
-Number of days : 1329
-Expected Output :
-Years: 3
-Weeks: 33
-Days: 3
+   Note: Ignore leap year.
+   Test Data :
+   Number of days : 1329
+   Expected Output :
+   Years: 3
+   Weeks: 33
+   Days: 3
 
 10. Write a C++ program to convert a string to lowercase.
 
-11. PROJECT (OPTIONAL)
-
-For submitting the project, paste the entire code in the Description Box and
-Attach Screenshots of the Output.
+11) PROJECT (OPTIONAL)
+    For submitting the project, paste the entire code in the Description Box and
+    Attach Screenshots of the Output.
