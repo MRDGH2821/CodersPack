@@ -1,4 +1,9 @@
-"""Write a python class named rectangle constructed by a length and width and a method which will compute the area of a rectangle."""
+"""
+Rectangle Area Calculator Code.
+
+Write a python class named rectangle constructed by a length and width.
+And a method which will compute the area of a rectangle.
+"""
 
 
 class rectangle:

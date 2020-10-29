@@ -1,4 +1,8 @@
-# Write a python program to find the median of three values.
+"""
+Median Finder.
+
+Write a python program to find the median of three values.
+"""
 
 print("Median value finder\n")
 s1 = int(input("Enter value1 :"))

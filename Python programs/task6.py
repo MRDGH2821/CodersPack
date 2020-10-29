@@ -1,4 +1,9 @@
-# Write a Python program to check a triangle is equilateral, isosceles or scalene.
+"""
+Triangle Checker.
+
+A Python program to check a triangle is equilateral, isosceles or scalene.
+"""
+
 print("Triangle type determiner")
 s1 = int(input("Enter side1 length:"))
 s2 = int(input("Enter side2 length:"))

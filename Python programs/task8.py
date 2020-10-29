@@ -1,4 +1,8 @@
-"""Write a python function to multiply all the numbers in a list."""
+"""
+List Product.
+
+Write a python function to multiply all the numbers in a list.
+"""
 
 
 def multiply(li):
@@ -9,4 +13,5 @@ def multiply(li):
     return prod
 
 
-print("Product is:", multiply([int(i) for i in input("Enter numbers seperated by space:").split(' ')]))
+print("Product is:", multiply([int(i) for i in input(
+    "Enter numbers seperated by space:").split(' ')]))
