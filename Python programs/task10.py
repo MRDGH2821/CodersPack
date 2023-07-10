@@ -20,7 +20,7 @@ class rectangle:
         return self.ar
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     rc = rectangle()
     rc.ln = int(input("Enter Length:"))
     rc.w = int(input("Enter Width:"))

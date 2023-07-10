@@ -13,5 +13,7 @@ def multiply(li):
     return prod
 
 
-print("Product is:", multiply([int(i) for i in input(
-    "Enter numbers separated by space:").split(' ')]))
+print(
+    "Product is:",
+    multiply([int(i) for i in input("Enter numbers separated by space:").split(" ")]),
+)
