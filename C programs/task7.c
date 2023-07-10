@@ -1,4 +1,6 @@
+// Copyright 2023 MRDGH2821
 // WRITE A C PROGRAM TO CHECK IF THE GIVEN STRING IS A PALINDROME OR NOT.
+
 #include <stdio.h>
 #include <string.h>
 

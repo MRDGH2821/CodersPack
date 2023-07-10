@@ -1,3 +1,4 @@
+// Copyright 2023 MRDGH2821
 // Write a C++ program to calculate sum of all the elements of an array.
 
 #include <iostream>

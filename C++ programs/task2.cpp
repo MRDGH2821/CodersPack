@@ -1,4 +1,6 @@
+// Copyright 2023 MRDGH2821
 // Write a C++ program to check if the given number is even or odd.
+
 #include <iostream>
 using namespace std;
 

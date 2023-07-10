@@ -1,4 +1,6 @@
+// Copyright 2023 MRDGH2821
 // WRITE A C PROGRAM TO FIND FACTORIAL OF A NUMBER.
+
 #include <stdio.h>
 int main()
 {

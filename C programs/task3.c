@@ -1,4 +1,6 @@
+// Copyright 2023 MRDGH2821
 // WRITE A C PROGRAM TO TAKE MARKS IN 3 SUBJECTS AND DISPLAY THEIR SUM AND AVERAGE.
+
 #include <stdio.h>
 int main()
 {

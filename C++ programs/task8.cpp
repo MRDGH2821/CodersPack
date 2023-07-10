@@ -1,3 +1,4 @@
+// Copyright 2023 MRDGH2821
 /*
    Write a C++ program to check whether two given strings are an anagram.
 

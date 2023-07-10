@@ -1,3 +1,4 @@
+// Copyright 2023 MRDGH2821
 // WRITE A C PROGRAM TO FIND THE REVERSE OF A GIVEN NUMBER.
 
 #include <stdio.h>

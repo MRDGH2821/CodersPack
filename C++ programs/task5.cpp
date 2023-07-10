@@ -1,3 +1,4 @@
+// Copyright 2023 MRDGH2821
 //  Write a C++ program to find the largest and smallest element in an array.
 
 #include <iostream>
