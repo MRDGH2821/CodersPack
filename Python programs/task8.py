@@ -14,4 +14,4 @@ def multiply(li):
 
 
 print("Product is:", multiply([int(i) for i in input(
-    "Enter numbers seperated by space:").split(' ')]))
+    "Enter numbers separated by space:").split(' ')]))
