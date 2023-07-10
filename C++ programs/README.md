@@ -1,3 +1,5 @@
+# C++ Coders Pack
+
 This folder contains all the task solutions to MyCaptain's C++ Language workshop.
 
 The tasks are -
@@ -18,31 +20,31 @@ The tasks are -
 
 8. [Write a C++ program to check whether two given strings are an anagram.](task8.cpp)
 
-Test Data:
+   Test Data:
 
-```
-Input the first String: spare
-Input the second String: pears
-```
+   ```text
+   Input the first String: spare
+   Input the second String: pears
+   ```
 
-Expected Output:
+   Expected Output:
 
-```
-spare and pears are Anagram.
-```
+   ```text
+   spare and pears are Anagram.
+   ```
 
 9. [Write a C++ program to convert specified days into years, weeks and days.](task9.cpp)
    Note: Ignore leap year.
 
-Test Data :
+   Test Data :
 
-```
-Number of days : 1329
-Expected Output :
-Years: 3
-Weeks: 33
-Days: 3
-```
+   ```text
+   Number of days : 1329
+   Expected Output :
+   Years: 3
+   Weeks: 33
+   Days: 3
+   ```
 
 10. [Write a C++ program to convert a string to lowercase.](task10.cpp)
 

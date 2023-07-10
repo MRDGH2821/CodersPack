@@ -1,3 +1,5 @@
+# Java Coders Pack
+
 This folder contains all the task solutions to MyCaptain's Java Language workshop.
 
 The tasks are -
@@ -13,17 +15,17 @@ The tasks are -
 
 5. [Write a Java program to convert minutes into a number of years and days](Task%205-Minutes%20to%20Years%20&%20Days/task5.java)
 
-Test data:
+   Test data:
 
-```
-Input the number of minutes: 3456789
-```
+   ```text
+   Input the number of minutes: 3456789
+   ```
 
-Expected output:
+   Expected output:
 
-```
-3456789 minutes is approximately 6 years and 210 days
-```
+   ```text
+   3456789 minutes is approximately 6 years and 210 days
+   ```
 
 6. [Write a Java program that reads an integer and check whether it is negative, zero or positive](Task%206-Negative%20or%20Positive/task6.java)
 
@@ -35,19 +37,19 @@ Expected output:
 
 10. Write a program in Java to display the cube of the number up to a given an integer
 
-Test data :
+   Test data :
 
-```
-Input number of terms : 4
-```
+   ```text
+   Input number of terms : 4
+   ```
 
-Expected output :
+   Expected output :
 
-```
-Number is : 1 and cube of 1 is : 1
-Number is : 2 and cube of 2 is : 8
-Number is : 3 and cube of 3 is : 27
-Number is : 4 and cube of 4 is : 64
-```
+   ```text
+   Number is : 1 and cube of 1 is : 1
+   Number is : 2 and cube of 2 is : 8
+   Number is : 3 and cube of 3 is : 27
+   Number is : 4 and cube of 4 is : 64
+   ```
 
 11. Optional Project

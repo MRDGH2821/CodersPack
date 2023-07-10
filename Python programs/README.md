@@ -15,17 +15,17 @@ The tasks are -
 5. [Write a Python program to convert month name to the number of days.](task5.py)
    List of months: January, February, March, April, May, June, July, August, September, October, November, December
 
-Test Data:
+   Test Data:
 
-```
-Input the name of Month: April
-```
+   ```text
+   Input the name of Month: April
+   ```
 
-Expected Output:
+   Expected Output:
 
-```
-No. of days: 30 days
-```
+   ```text
+   No. of days: 30 days
+   ```
 
 6. [Write a Python program to check a triangle is equilateral, isosceles or scalene.](task6.py)
    Note:
@@ -37,32 +37,32 @@ No. of days: 30 days
 
 8. [Write a python function to multiply all the numbers in a list.](task8.py)
 
-Test data:
+   Test data:
 
-```
-[8, 2, 3, -1, 7]
-```
+   ```text
+   [8, 2, 3, -1, 7]
+   ```
 
-Expected Output:
+   Expected Output:
 
-```
--336
-```
+   ```text
+   -336
+   ```
 
 9. [Write a python program to count the number of even and odd numbers from a series of numbers.](task9.py)
 
-Test Data:
+   Test Data:
 
-```
-(1, 2, 3, 4, 5, 6, 7, 8, 9)
-```
+   ```text
+   (1, 2, 3, 4, 5, 6, 7, 8, 9)
+   ```
 
-Expected Output:
+   Expected Output:
 
-```
-Number of even numbers: 5
-Number of odd numbers: 4
-```
+   ```text
+   Number of even numbers: 5
+   Number of odd numbers: 4
+   ```
 
 10. [Write a python class named rectangle constructed by a length and width and a method which will compute the area of a rectangle.](task10.py)
 
