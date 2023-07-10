@@ -2,38 +2,44 @@ This folder contains all the task solutions to MyCaptain's C Language pack.
 
 The tasks are -
 
-1. WRITE A C PROGRAM TO READ THE NAME, AGE AND PHONE NUMBER FROM THE USER, STORE THEM IN VARIABLES AND DISPLAY THEM BACK.
+1. [Write a C program to read the name age and phone number from the user store them in variables and display them back](task1.c)
 
-2. A C PROGRAM TO TAKE THE TEMPERATURE IN CELSIUS AND CONVERT IT TO FAHRENHEIT AND DISPLAY IT BACK
+2. [A C program to take the temperature in celsius and convert it to fahrenheit and display it back](task2.c)
 
-3. WRITE A C PROGRAM TO TAKE MARKS IN 3 SUBJECTS AND DISPLAY THEIR SUM AND AVERAGE.
+3. [Write a C program to take marks in 3 subjects and display their sum and average](task3.c)
 
-4. WRITE A C PROGRAM TO READ THE FIRST NAME AND THE LAST NAME OF THE USER IN 2 DIFFERENT VARIABLES, COMBINE THEM, AND DISPLAY THEIR FULL NAME USING A SINGLE STRING.
+4. [Write a C program to read the first name and the last name of the user in 2 different variables combine them and display their full name using a single string](task4.c)
 
-5. WRITE A C PROGRAM TO FIND THE REVERSE OF A GIVEN NUMBER.
+5. [Write a C program to find the reverse of a given number](task5.c)
 
-6. WRITE A C PROGRAM TO CHECK IF THE GIVEN NUMBER IS AN ARMSTRONG NUMBER OR NOT.
+6. [Write a C program to check if the given number is an armstrong number or not](task6.c)
 
-7. WRITE A C PROGRAM TO CHECK IF THE GIVEN STRING IS A PALINDROME OR NOT.
+7. [Write a C program to check if the given string is a palindrome or not](task7.c)
 
-8. WRITE A C PROGRAM TO READ AN INTEGER AND PRINT ITS MULTIPLICATION TABLE.
+8. [Write a C program to read an integer and print its multiplication table](task8.c)
 
-9. WRITE A C PROGRAM TO FIND FACTORIAL OF A NUMBER.
+9. [Write a C program to find factorial of a number](task9.c)
 
-10. WRITE A C PROGRAM TO PRINT THE GIVEN PYRAMID(CLICK TO SEE THE PYRAMID).
+10. [Write a C program to print the given pyramid click to see the pyramid](task10.c)
+
+    ```text
     12345
     1234
     123
     12
     1
+    ```
 
-11. WRITE A C PROGRAM TO CREATE A STRUCTURE CALLED BOOK AND STORE THE TITLE, AUTHOR AND GENRE. READ THESE VALUES FROM THE USER AND DISPLAY THEM BACK, USING FUNCTIONS.
+11. [Write a C program to create a structure called book and store the title author and genre read these values from the user and display them back using functions](task11.c)
 
-12. WRITE A C PROGRAM TO DISPLAY THE FOLLOWING OPTIONS :
+12. [Write a C program to display the following options](task12.c)
 
-    1. CELCIUS TO FAHRENHEIT,
-    2. FAHRENHEIT TO CELCIUS,
-    3. EXIT.
-       PERFORM THE RELEVANT OPERATION USING SWITCH CASE.
+    ```text
+    1. Celcius to fahrenheit
+    2. Fahrenheit to celcius
+    3. Exit
+    ```
 
-13. WRITE A C PROGRAM TO FIND THE SMALLEST AND LARGEST ELEMENT IN AN ARRAY.
+Perform the relevant operation using switch case
+
+13. [Write a C program to find the smallest and largest element in an array](task13.c)
