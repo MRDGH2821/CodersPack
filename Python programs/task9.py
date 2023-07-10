@@ -1,7 +1,8 @@
 """
 Odd Even Counter.
 
-Write a python program to count the number of even and odd numbers from a series of numbers.
+Write a python program to count the number of even and odd numbers 
+from a series of numbers.
 """
 
 odd = 0
