@@ -11,6 +11,12 @@
   ],
   "language": "en",
   "noConfigSearch": true,
-  "words": ["megalinter", "oxsecurity", "stefanzweifel", "venv"],
+  "words": [
+    "megalinter",
+    "MRDGH",
+    "oxsecurity",
+    "stefanzweifel",
+    "venv"
+  ],
   "version": "0.2"
 }
