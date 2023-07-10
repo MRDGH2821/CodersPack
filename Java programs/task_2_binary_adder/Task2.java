@@ -2,7 +2,9 @@
 
 import java.util.Scanner;
 
-public class Task2 {
+public final class Task2 {
+
+  private Task2() {}
 
   public static String addBinary(String input0, String input1) {
     // Use as radix 2 because it's binary
@@ -11,7 +13,7 @@ public class Task2 {
 
     int sum = number0 + number1;
 
-    return (Integer.toBinaryString(sum)); //returns the answer as a binary value;
+    return Integer.toBinaryString(sum); //returns the answer as a binary value;
   }
 
   public static void main(String[] args) {

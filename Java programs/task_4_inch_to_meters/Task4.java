@@ -3,7 +3,9 @@
 
 import java.util.Scanner;
 
-public class Task4 {
+public final class Task4 {
+
+  private Task4() {}
 
   public static void main(String[] args) {
     double mt, inc;

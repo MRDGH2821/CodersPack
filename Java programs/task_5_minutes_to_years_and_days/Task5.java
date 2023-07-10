@@ -7,7 +7,9 @@
 
 import java.util.Scanner;
 
-public class Task5 {
+public final class Task5 {
+
+  private Task5() {}
 
   public static void main(String[] args) {
     int min = 0;

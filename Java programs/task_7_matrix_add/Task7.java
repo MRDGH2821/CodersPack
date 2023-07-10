@@ -1,7 +1,9 @@
 //Write a Java program to add two matrices of the same size
 import java.util.Scanner;
 
-public class Task7 {
+public final class Task7 {
+
+  private Task7() {}
 
   public static int[][] accept(int p[][]) {
     Scanner in = new Scanner(System.in);

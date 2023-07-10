@@ -1,7 +1,11 @@
 //Write a Java program and compute the sum of the digits of an integer
+package com.Task_3_SumOfDigits;
+
 import java.util.Scanner;
 
-public class Task3 {
+public final class Task3 {
+
+  private Task3() {}
 
   public static void main(String[] args) {
     int r, sum = 0;
@@ -15,6 +19,7 @@ public class Task3 {
       r = r / 10;
     }
     System.out.println("Sum of digits is = " + sum);
+
     in.close();
   }
 }

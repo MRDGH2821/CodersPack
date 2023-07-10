@@ -2,7 +2,9 @@
 
 import java.util.Scanner;
 
-public class Task6 {
+public final class Task6 {
+
+  private Task6() {}
 
   public static void main(String[] args) {
     int a;
