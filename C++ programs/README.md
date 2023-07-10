@@ -19,19 +19,23 @@ The tasks are -
 8. [Write a C++ program to check whether two given strings are an anagram.](task8.cpp)
 
 Test Data:
+
 ```
 Input the first String: spare
 Input the second String: pears
 ```
+
 Expected Output:
+
 ```
 spare and pears are Anagram.
 ```
 
 9. [Write a C++ program to convert specified days into years, weeks and days.](task9.cpp)
-Note: Ignore leap year.
+   Note: Ignore leap year.
 
 Test Data :
+
 ```
 Number of days : 1329
 Expected Output :
@@ -43,4 +47,4 @@ Days: 3
 10. [Write a C++ program to convert a string to lowercase.](task10.cpp)
 
 11. PROJECT (OPTIONAL)
-For submitting the project, paste the entire code in the Description Box and Attach Screenshots of the Output.
+    For submitting the project, paste the entire code in the Description Box and Attach Screenshots of the Output.

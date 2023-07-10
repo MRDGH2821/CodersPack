@@ -9,16 +9,18 @@ The tasks are -
 3. [Write a Java program and compute the sum of the digits of an integer](Task%203-Sum%20of%20digits/task3.java)
 
 4. [Write a Java program that reads a number in inches, converts it to meters](Task%204-Inch%20To%20Meters/task4.java)
-Note: one inch is 0.0254 meter.
+   Note: one inch is 0.0254 meter.
 
 5. [Write a Java program to convert minutes into a number of years and days](Task%205-Minutes%20to%20Years%20&%20Days/task5.java)
 
 Test data:
+
 ```
 Input the number of minutes: 3456789
 ```
 
 Expected output:
+
 ```
 3456789 minutes is approximately 6 years and 210 days
 ```
@@ -32,12 +34,15 @@ Expected output:
 9. Write a Java method to find the smallest number among three numbers
 
 10. Write a program in Java to display the cube of the number up to a given an integer
+
 Test data :
+
 ```
 Input number of terms : 4
 ```
 
 Expected output :
+
 ```
 Number is : 1 and cube of 1 is : 1
 Number is : 2 and cube of 2 is : 8
