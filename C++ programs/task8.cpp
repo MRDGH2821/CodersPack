@@ -21,8 +21,8 @@ int main() {
   fgets(str1, 20, stdin);
   std::cout << "Enter second string :";
   fgets(str2, 20, stdin);
-  len1 = strlen(str1);
-  len2 = strlen(str2);
+  len1 = strnlen_s(str1, 20);
+  len2 = strnlen_s(str2, 20);
   if (len1 == len2) {
     len = len1;
     for (i = 0; i < len; i++) {
