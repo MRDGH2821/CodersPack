@@ -13,14 +13,13 @@
 #include <stdio.h>
 #include <string.h>
 #include <iostream>
-using namespace std;
 
 int main() {
   char str1[20], str2[20];
   int len, len1, len2, i, j, found = 0, not_found = 0;
-  cout << "Enter first string :";
+  std::cout << "Enter first string :";
   fgets(str1, 20, stdin);
-  cout << "Enter second string :";
+  std::cout << "Enter second string :";
   fgets(str2, 20, stdin);
   len1 = strlen(str1);
   len2 = strlen(str2);
@@ -40,13 +39,13 @@ int main() {
       }
     }
     if (not_found == 1) {
-      cout << str1 << " and " << str2 << " are not anagrams.";
+      std::cout << str1 << " and " << str2 << " are not anagrams.";
     } else {
-      cout << str1 << " and " << str2 << " are anagrams.";
+      std::cout << str1 << " and " << str2 << " are anagrams.";
     }
   } else {
-    cout << str1 << " and " << str2
-         << " are not of same length to be anagrams.";
+    std::cout << str1 << " and " << str2
+              << " are not of same length to be anagrams.";
   }
   getch();
 }

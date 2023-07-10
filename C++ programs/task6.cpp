@@ -2,7 +2,6 @@
 // Write a C++ program to sort elements of array in ascending order.
 
 #include <iostream>
-using namespace std;
 
 int* bubbleSort(int a[]) {
   int temp;
@@ -20,13 +19,13 @@ int* bubbleSort(int a[]) {
 
 int main() {
   int ar[10];
-  cout << "Enter 10 elements: " << endl;
+  std::cout << "Enter 10 elements: " << std::endl;
   for (int i = 0; i < 10; i++) {
-    cin >> ar[i];
+    std::cin >> ar[i];
   }
   int* a = bubbleSort(ar);
-  cout << "Sorted array: " << endl;
+  std::cout << "Sorted array: " << std::endl;
   for (int i = 0; i < 10; i++) {
-    cout << a[i] << " ";
+    std::cout << a[i] << " ";
   }
 }

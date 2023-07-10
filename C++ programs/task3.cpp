@@ -2,22 +2,21 @@
 // Write a C++ program to check if the given year is a leap year.
 
 #include <iostream>
-using namespace std;
 
 int main() {
   int year;
-  cout << "Enter a year: ";
-  cin >> year;
+  std::cout << "Enter a year: ";
+  std::cin >> year;
   if (year % 100 == 0) {
     if (year % 400 == 0) {
-      cout << "Century Leap year.\n";
+      std::cout << "Century Leap year.\n";
     } else {
-      cout << "Not a century leap year.\n";
+      std::cout << "Not a century leap year.\n";
     }
   } else if (year % 4 == 0) {
-    cout << "Leap year.\n";
+    std::cout << "Leap year.\n";
   } else {
-    cout << "Not a leap Year.\n";
+    std::cout << "Not a leap Year.\n";
   }
   return 0;
 }

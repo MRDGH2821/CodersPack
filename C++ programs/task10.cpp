@@ -3,7 +3,6 @@
 
 #include <string.h>
 #include <iostream>
-using namespace std;
 
 char to_lowercase(char c) {
   if (c >= 'A' && c <= 'Z') {
@@ -14,12 +13,12 @@ char to_lowercase(char c) {
 }
 
 int main() {
-  string str;
-  cout << "Enter a string: ";
-  getline(cin, str);
+  std::string str;
+  std::cout << "Enter a string: ";
+  std::getline(std::cin, str);
   for (char& c : str) {
     c = to_lowercase(c);
   }
-  cout << str;
+  std::cout << str;
   return 0;
 }

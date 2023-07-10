@@ -2,13 +2,12 @@
 // Write a C++ program to find the largest and smallest element in an array.
 
 #include <iostream>
-using namespace std;
 
 int main() {
   int ar[10];
-  cout << "Enter 10 elements: " << endl;
+  std::cout << "Enter 10 elements: " << std::endl;
   for (int i = 0; i < 10; i++) {
-    cin >> ar[i];
+    std::cin >> ar[i];
   }
   int large = 0, small = 99999;
   for (int i = 0; i < 10; i++) {
@@ -20,6 +19,6 @@ int main() {
       small = ar[i];
     }
   }
-  cout << "Largest number:" << large << endl
-       << "Smallest number:" << small << endl;
+  std::cout << "Largest number:" << large << std::endl
+            << "Smallest number:" << small << std::endl;
 }

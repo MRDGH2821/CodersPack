@@ -2,7 +2,6 @@
 // Write a C++ program to swap two numbers using function.
 
 #include <iostream>
-using namespace std;
 
 void swap(int* a, int* b) {
   int temp;
@@ -13,12 +12,12 @@ void swap(int* a, int* b) {
 
 int main() {
   int q, w;
-  cout << "Enter 2 numbers: " << endl;
-  cin >> q >> w;
-  cout << "1st number = " << q << endl;
-  cout << "2nd number = " << w << endl;
+  std::cout << "Enter 2 numbers: " << std::endl;
+  std::cin >> q >> w;
+  std::cout << "1st number = " << q << std::endl;
+  std::cout << "2nd number = " << w << std::endl;
   swap(&q, &w);
-  cout << "After swapping:" << endl;
-  cout << "1st number = " << q << endl;
-  cout << "2nd number = " << w << endl;
+  std::cout << "After swapping:" << std::endl;
+  std::cout << "1st number = " << q << std::endl;
+  std::cout << "2nd number = " << w << std::endl;
 }
