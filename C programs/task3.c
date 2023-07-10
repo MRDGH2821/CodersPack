@@ -1,9 +1,10 @@
 // Copyright 2023 MRDGH2821
-// WRITE A C PROGRAM TO TAKE MARKS IN 3 SUBJECTS AND DISPLAY THEIR SUM AND AVERAGE.
+/*
+  Write a C program to take marks in 3 subjects and display their sum and average
+*/
 
 #include <stdio.h>
-int main()
-{
+int main() {
   int s1, s2, s3, sum;
   float avg;
   printf_s("Enter 3 subject marks:\n");

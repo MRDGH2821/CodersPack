@@ -1,9 +1,11 @@
 // Copyright 2023 MRDGH2821
-// WRITE A C PROGRAM TO READ THE NAME, AGE AND PHONE NUMBER FROM THE USER, STORE THEM IN VARIABLES AND DISPLAY THEM BACK.
+/*
+  Write a C program to read the name age and phone number from the user
+  store them in variables and display them back
+*/
 
 #include <stdio.h>
-int main()
-{
+int main() {
   char name[20];
   int age, no;
   printf_s("Enter name:\n");

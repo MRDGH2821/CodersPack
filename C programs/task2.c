@@ -1,9 +1,10 @@
 // Copyright 2023 MRDGH2821
-// A C PROGRAM TO TAKE THE TEMPERATURE IN CELSIUS AND CONVERT IT TO FAHRENHEIT AND DISPLAY IT BACK
+/*
+  Write a C program to take the temperature in celsius and convert it to fahrenheit and display it back
+*/
 
 #include <stdio.h>
-int main()
-{
+int main() {
   float f, c;
   printf_s("Enter temperature in Celsius: ");
   scanf_s("%f", &c);
