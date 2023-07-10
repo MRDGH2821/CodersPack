@@ -12,10 +12,13 @@
   "language": "en",
   "noConfigSearch": true,
   "words": [
+    "Kehan",
     "megalinter",
     "MRDGH",
     "oxsecurity",
+    "Parens",
     "stefanzweifel",
+    "Struct",
     "venv"
   ],
   "version": "0.2"
