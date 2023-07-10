@@ -10,15 +10,15 @@
 int main()
 {
 	int no;
-	printf("Enter a no: ");
-	scanf("%d", &no);
-	printf("Pyramid:\n");
+	printf_s("Enter a no: ");
+	scanf_s("%d", &no);
+	printf_s("Pyramid:\n");
 	for (int i = no; i > 0; i--)
 	{
 		for (int j = 1; j <= i; j++)
 		{
-			printf("%d", j);
+			printf_s("%d", j);
 		}
-		printf("\n");
+		printf_s("\n");
 	}
 }

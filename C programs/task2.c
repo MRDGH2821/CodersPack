@@ -3,8 +3,8 @@
 int main()
 {
   float f, c;
-  printf("Enter temperature in Celsius: ");
-  scanf("%f", &c);
+  printf_s("Enter temperature in Celsius: ");
+  scanf_s("%f", &c);
   f = 1.8 * c + 32;
-  printf("\nTemperature in Fahrenheit: %f", f);
+  printf_s("\nTemperature in Fahrenheit: %f", f);
 }

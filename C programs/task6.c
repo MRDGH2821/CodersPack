@@ -6,15 +6,15 @@
 int main()
 {
 	int no, res, count = 0, rem;
-	printf("Enter a number: ");
-	scanf("%d", &no);
+	printf_s("Enter a number: ");
+	scanf_s("%d", &no);
 	const int org = no;
 	while (no != 0)
 	{
 		++count;
 		no /= 10;
 	}
-	printf("%d\n", count);
+	printf_s("%d\n", count);
 	no = org;
 	while (no != 0)
 	{
@@ -23,7 +23,7 @@ int main()
 		no /= 10;
 	}
 	if (res == org)
-		printf("True");
+		printf_s("True");
 	else
-		printf("False");
+		printf_s("False");
 }

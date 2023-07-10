@@ -5,14 +5,14 @@
 int main()
 {
 	char a[100], b[100];
-	printf("Enter a string: ");
-	gets(a);
+	printf_s("Enter a string: ");
+	fgets(a, 100, stdin);
 
-	strcpy(b, a);
+	strcpy_s(b, 100, a);
 	strrev(b);
 
 	if (strcmp(a, b) == 0) // Comparing input string with the reverse string
-		printf("Palindrome.\n");
+		printf_s("Palindrome.\n");
 	else
-		printf("Not a Palindrome.\n");
+		printf_s("Not a Palindrome.\n");
 }

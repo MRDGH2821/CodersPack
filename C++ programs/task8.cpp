@@ -19,9 +19,9 @@ int main()
 	char str1[20], str2[20];
 	int len, len1, len2, i, j, found = 0, not_found = 0;
 	cout << "Enter first string :";
-	gets(str1);
+	fgets(str1, 20, stdin);
 	cout << "Enter second string :";
-	gets(str2);
+	fgets(str2, 20, stdin);
 	len1 = strlen(str1);
 	len2 = strlen(str2);
 	if (len1 == len2)

@@ -4,14 +4,14 @@
 int main()
 {
 	char fname[100], lname[100];
-	printf("Enter first name: ");
-	scanf("%s", fname);
-	printf("Enter last name: ");
-	scanf("%s", lname);
+	printf_s("Enter first name: ");
+	scanf_s("%s", fname);
+	printf_s("Enter last name: ");
+	scanf_s("%s", lname);
 	// char w=' ';
 	// strcat(fname,&w);
-	strcat(fname, lname);
+	strcat_s(fname, 100, lname);
 	// char name[]=fname lname;
-	// printf("Name:%s",name);
+	// printf_s("Name:%s",name);
 	puts(fname);
 }

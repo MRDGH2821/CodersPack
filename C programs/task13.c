@@ -5,10 +5,10 @@
 int main()
 {
 	int ar[10], i;
-	printf("Enter 10 numbers:\n");
+	printf_s("Enter 10 numbers:\n");
 	for (i = 0; i < 10; i++)
 	{
-		scanf("%d", &ar[i]);
+		scanf_s("%d", &ar[i]);
 	}
 	int small = ar[0], large = 0;
 	i = 0;
@@ -26,5 +26,5 @@ int main()
 		}
 		i++;
 	}
-	printf("Largest no: %d\nSmallest no: %d\n", large, small);
+	printf_s("Largest no: %d\nSmallest no: %d\n", large, small);
 }

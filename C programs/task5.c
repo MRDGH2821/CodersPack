@@ -4,13 +4,13 @@
 int main()
 {
 	int num = 0, rev = 0;
-	printf("Enter a number: ");
-	scanf("%d", &num);
+	printf_s("Enter a number: ");
+	scanf_s("%d", &num);
 	while (num > 0)
 	{
 		rev = 10 * rev;
 		rev = rev + num % 10;
 		num = num / 10;
 	};
-	printf("Reversed number is: %d", rev);
+	printf_s("Reversed number is: %d", rev);
 }

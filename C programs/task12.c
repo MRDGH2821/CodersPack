@@ -10,22 +10,22 @@ int main()
 {
 	float f, c;
 	int ch;
-	printf("Menu:\n1.Celsius to Fahrenheit \n2.Fahrenheit to Celsius \n3.Exit\nEnter choice: ");
-	scanf("%d", &ch);
+	printf_s("Menu:\n1.Celsius to Fahrenheit \n2.Fahrenheit to Celsius \n3.Exit\nEnter choice: ");
+	scanf_s("%d", &ch);
 	switch (ch)
 	{
 	case 1:
-		printf("Enter temperature in Celsius: ");
-		scanf("%f", &c);
+		printf_s("Enter temperature in Celsius: ");
+		scanf_s("%f", &c);
 		f = 1.8 * c + 32;
-		printf("\nTemperature in Fahrenheit: %f", f);
+		printf_s("\nTemperature in Fahrenheit: %f", f);
 		break;
 
 	case 2:
-		printf("Enter temperature in Fahrenheit: ");
-		scanf("%f", &f);
+		printf_s("Enter temperature in Fahrenheit: ");
+		scanf_s("%f", &f);
 		c = (f - 32) / 1.8;
-		printf("\nTemperature in Celsius: %f", c);
+		printf_s("\nTemperature in Celsius: %f", c);
 		break;
 
 	default:

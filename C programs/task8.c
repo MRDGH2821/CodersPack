@@ -6,10 +6,10 @@
 int main()
 {
 	int no;
-	printf("Enter a number: ");
-	scanf("%d", &no);
+	printf_s("Enter a number: ");
+	scanf_s("%d", &no);
 	for (int i = 1; i <= 10; i++)
 	{
-		printf("%d * %d = %d\n", no, i, no * i);
+		printf_s("%d * %d = %d\n", no, i, no * i);
 	}
 }
