@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class task4 {
+public class Task4 {
 
   public static void main(String[] args) {
     double mt, inc;
@@ -13,5 +13,6 @@ public class task4 {
     inc = in.nextFloat();
     mt = inc * 0.0254;
     System.out.println("Meter = " + mt);
+    in.close();
   }
 }

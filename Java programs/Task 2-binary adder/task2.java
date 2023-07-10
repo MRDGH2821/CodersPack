@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class task2 {
+public class Task2 {
 
   public static String addBinary(String input0, String input1) {
     // Use as radix 2 because it's binary
@@ -23,5 +23,6 @@ public class task2 {
     n1 = in.nextLine();
     n2 = in.nextLine();
     System.out.println("Output = " + addBinary(n1, n2));
+    in.close();
   }
 }

@@ -7,7 +7,7 @@
 
 import java.util.Scanner;
 
-public class task5 {
+public class Task5 {
 
   public static void main(String[] args) {
     int min = 0;
@@ -30,5 +30,6 @@ public class task5 {
     System.out.println(
       mind + "minutes is approximately " + yr + " years and " + days + " days"
     );
+    in.close();
   }
 }

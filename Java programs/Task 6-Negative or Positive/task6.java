@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class task6 {
+public class Task6 {
 
   public static void main(String[] args) {
     int a;
@@ -17,5 +17,6 @@ public class task6 {
     } else {
       System.out.println("It is zero");
     }
+    in.close();
   }
 }
