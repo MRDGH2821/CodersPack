@@ -21,7 +21,7 @@ public final class Task4 {
     final double inchToMeter = 0.0254;
     System.out.println("Enter inches:");
 
-    Scanner inputScan = new Scanner(System.in);
+    final Scanner inputScan = new Scanner(System.in);
     try {
       inch = inputScan.nextFloat();
       meter = inch * inchToMeter;
