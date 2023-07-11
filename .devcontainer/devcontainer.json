@@ -1,0 +1,11 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/cpp",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {},
+    "ghcr.io/devcontainers/features/java:1": {},
+    "ghcr.io/devcontainers/features/python:1": {},
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers-contrib/features/checkov:1": {},
+    "ghcr.io/devcontainers-contrib/features/trivy:1": {}
+  }
+}
