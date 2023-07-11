@@ -52,5 +52,6 @@
       "fileMatch": [".jscpd.json"],
       "url": "https://json.schemastore.org/jscpd.json"
     }
-  ]
+  ],
+  "javaPMD.commandBufferSize": 200
 }
