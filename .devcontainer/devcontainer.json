@@ -6,7 +6,10 @@
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers-contrib/features/checkov:1": {},
 		"ghcr.io/devcontainers-contrib/features/trivy:1": {},
-		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+		"ghcr.io/devcontainers-contrib/features/npm-package:1": {
+			"package": "mega-linter-runner"
+		}
 	},
 	"customizations": {
 		"vscode": {
