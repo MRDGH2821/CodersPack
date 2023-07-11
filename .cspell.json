@@ -11,15 +11,13 @@
   ],
   "language": "en",
   "noConfigSearch": true,
+  "allowCompoundWords": true,
   "words": [
-    "CACHEDIR",
     "Kehan",
-    "megalinter",
     "MRDGH",
-    "oxsecurity",
-    "Parens",
     "stefanzweifel",
     "Struct",
+    "trivy",
     "venv"
   ],
   "version": "0.2"
