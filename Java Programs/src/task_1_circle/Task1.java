@@ -1,5 +1,6 @@
+// Write a Java program to print the area and perimeter of a circle
+package src.task_1_circle;
 
-//Write a Java program to print the area and perimeter of a circle
 import java.util.Scanner;
 
 public final class Task1 {
