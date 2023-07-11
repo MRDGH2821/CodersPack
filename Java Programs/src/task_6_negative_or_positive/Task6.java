@@ -2,6 +2,7 @@
  * and check whether it is negative, zero or positive*/
 package src.task_6_negative_or_positive;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public final class Task6 {
@@ -18,9 +19,9 @@ public final class Task6 {
     int number;
     System.out.println("Enter a number:");
 
-    Scanner in = new Scanner(System.in);
+    Scanner inputScan = new Scanner(System.in);
     try {
-      number = in.nextInt();
+      number = inputScan.nextInt();
       if (number < 0) {
         System.out.println("It is negative");
       } else if (number > 0) {
@@ -28,10 +29,10 @@ public final class Task6 {
       } else {
         System.out.println("It is zero");
       }
-    } catch (Exception e) {
+    } catch (InputMismatchException e) {
       System.out.println("Invalid input");
     } finally {
-      in.close();
+      inputScan.close();
     }
   }
 }

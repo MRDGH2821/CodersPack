@@ -1,6 +1,7 @@
 // Write a Java program to add two binary numbers
 package src.task_2_binary_adder;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public final class Task2 {
@@ -17,10 +18,10 @@ public final class Task2 {
    */
   public static String addBinary(final String input0, final String input1) {
     // Use as radix 2 because it's binary
-    int number0 = Integer.parseInt(input0, 2);
-    int number1 = Integer.parseInt(input1, 2);
+    final int number0 = Integer.parseInt(input0, 2);
+    final int number1 = Integer.parseInt(input1, 2);
 
-    int sum = number0 + number1;
+    final int sum = number0 + number1;
 
     return Integer.toBinaryString(sum); // returns the answer as a binary value;
   }
@@ -33,16 +34,16 @@ public final class Task2 {
   public static void main(final String[] args) {
     String num1;
     String num2;
-    Scanner in = new Scanner(System.in);
+    final Scanner inputScan = new Scanner(System.in);
     try {
       System.out.println("Enter 2 binary numbers:");
-      num1 = in.nextLine();
-      num2 = in.nextLine();
+      num1 = inputScan.nextLine();
+      num2 = inputScan.nextLine();
       System.out.println("Output = " + addBinary(num1, num2));
-    } catch (Exception e) {
+    } catch (InputMismatchException e) {
       System.out.println("Invalid input");
     } finally {
-      in.close();
+      inputScan.close();
     }
   }
 }

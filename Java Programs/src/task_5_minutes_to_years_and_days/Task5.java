@@ -6,6 +6,7 @@
  * 3456789 minutes is approximately 6 years and 210 days*/
 package src.task_5_minutes_to_years_and_days;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public final class Task5 {
@@ -29,9 +30,9 @@ public final class Task5 {
 
     System.out.println("Enter minutes:");
 
-    Scanner in = new Scanner(System.in);
+    Scanner inputScan = new Scanner(System.in);
     try {
-      min = in.nextInt();
+      min = inputScan.nextInt();
       mins = min;
       while (min >= minutesInDay) {
         days = days + min / minutesInDay;
@@ -46,10 +47,10 @@ public final class Task5 {
       String resultDays = days + " days";
       String result = resultInit + resultYr + resultDays;
       System.out.println(result);
-    } catch (Exception e) {
+    } catch (InputMismatchException e) {
       System.out.println("Invalid input");
     } finally {
-      in.close();
+      inputScan.close();
     }
   }
 }

@@ -2,6 +2,7 @@
 // Note: one inch is 0.0254 meter.
 package src.task_4_inch_to_meters;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public final class Task4 {
@@ -20,15 +21,15 @@ public final class Task4 {
     final double inchToMeter = 0.0254;
     System.out.println("Enter inches:");
 
-    Scanner in = new Scanner(System.in);
+    Scanner inputScan = new Scanner(System.in);
     try {
-      inch = in.nextFloat();
+      inch = inputScan.nextFloat();
       meter = inch * inchToMeter;
       System.out.println("Meter = " + meter);
-    } catch (Exception e) {
+    } catch (InputMismatchException e) {
       System.out.println("Invalid input");
     } finally {
-      in.close();
+      inputScan.close();
     }
   }
 }
