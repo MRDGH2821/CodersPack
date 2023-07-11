@@ -21,7 +21,7 @@ public final class Task7 {
   public static int[][] acceptMatrix() {
     int[][] matrix = new int[SIZE][SIZE];
     System.out.println("Enter Matrix values: ");
-    Scanner inputScan = new Scanner(System.in);
+    final Scanner inputScan = new Scanner(System.in);
     try {
       for (int i = 0; i < SIZE; i++) {
         for (int j = 0; j < SIZE; j++) {
@@ -65,10 +65,10 @@ public final class Task7 {
   public static void main(final String[] args) {
 
     System.out.println("Matrix A:");
-    int[][] matrixA = acceptMatrix();
+    final int[][] matrixA = acceptMatrix();
 
     System.out.println("Matrix B:");
-    int[][] matrixB = acceptMatrix();
+    final int[][] matrixB = acceptMatrix();
 
     System.out.println("Sum of Matrices:");
     addMatrix(matrixA, matrixB);

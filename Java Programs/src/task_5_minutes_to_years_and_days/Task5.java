@@ -30,7 +30,7 @@ public final class Task5 {
 
     System.out.println("Enter minutes:");
 
-    Scanner inputScan = new Scanner(System.in);
+    final Scanner inputScan = new Scanner(System.in);
     try {
       min = inputScan.nextInt();
       mins = min;
@@ -42,10 +42,10 @@ public final class Task5 {
         }
         min = min % minutesInDay;
       }
-      String resultInit = mins + "minutes is approximately ";
-      String resultYr = year + " years and ";
-      String resultDays = days + " days";
-      String result = resultInit + resultYr + resultDays;
+      final String resultInit = mins + "minutes is approximately ";
+      final String resultYr = year + " years and ";
+      final String resultDays = days + " days";
+      final String result = resultInit + resultYr + resultDays;
       System.out.println(result);
     } catch (InputMismatchException e) {
       System.out.println("Invalid input");

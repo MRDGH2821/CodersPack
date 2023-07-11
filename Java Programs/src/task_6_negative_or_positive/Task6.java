@@ -19,7 +19,7 @@ public final class Task6 {
     int number;
     System.out.println("Enter a number:");
 
-    Scanner inputScan = new Scanner(System.in);
+    final Scanner inputScan = new Scanner(System.in);
     try {
       number = inputScan.nextInt();
       if (number < 0) {
