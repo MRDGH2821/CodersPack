@@ -2,3 +2,4 @@ megalinter-reports
 **/*.exe
 .mypy_cache
 .ruff_cache
+megalinter-reports/
