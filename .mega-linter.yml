@@ -16,3 +16,6 @@ ADDITIONAL_EXCLUDED_DIRECTORIES:
   - ".mypy_cache"
   - ".ruff_cache"
 FILTER_REGEX_EXCLUDE: ".mypy_cache\/*|.ruff_cache\/*"
+REPOSITORY_DEVSKIM_ARGUMENTS:
+  - "--skip-git-ignored-files"
+  - "--ignore-globs **/.mypy_cache/** , **/.ruff_cache/**"
