@@ -46,5 +46,11 @@
     "streambuf": "cpp",
     "typeinfo": "cpp"
   },
-  "java.checkstyle.configuration": "/sun_checks.xml"
+  "java.checkstyle.configuration": "/sun_checks.xml",
+  "json.schemas": [
+    {
+      "fileMatch": [".jscpd.json"],
+      "url": "https://json.schemastore.org/jscpd.json"
+    }
+  ]
 }
