@@ -1,10 +1,35 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/cpp",
-  "features": {
-    "ghcr.io/devcontainers/features/desktop-lite:1": {},
-    "ghcr.io/devcontainers/features/java:1": {},
-    "ghcr.io/devcontainers/features/git:1": {},
-    "ghcr.io/devcontainers-contrib/features/checkov:1": {},
-    "ghcr.io/devcontainers-contrib/features/trivy:1": {}
-  }
+	"image": "mcr.microsoft.com/devcontainers/cpp",
+	"features": {
+		"ghcr.io/devcontainers/features/desktop-lite:1": {},
+		"ghcr.io/devcontainers/features/java:1": {},
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers-contrib/features/checkov:1": {},
+		"ghcr.io/devcontainers-contrib/features/trivy:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"aquasecurityofficial.trivy-vulnerability-scanner",
+				"bridgecrew.checkov",
+				"charliermarsh.ruff",
+				"christian-kohler.path-intellisense",
+				"cschlosser.doxdocgen",
+				"eamodio.gitlens",
+				"editorconfig.editorconfig",
+				"esbenp.prettier-vscode",
+				"formulahendry.code-runner",
+				"matangover.mypy",
+				"ms-azuretools.vscode-docker",
+				"ms-cst-e.vscode-devskim",
+				"ms-python.isort",
+				"ms-vscode.cpptools-extension-pack",
+				"ryanlaws.toggle-case",
+				"shengchen.vscode-checkstyle",
+				"streetsidesoftware.code-spell-checker",
+				"visualstudioexptteam.vscodeintellicode",
+				"vscjava.vscode-java-pack"
+			]
+		}
+	}
 }
