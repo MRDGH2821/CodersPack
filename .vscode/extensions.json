@@ -20,6 +20,7 @@
     "visualstudioexptteam.vscodeintellicode",
     "vscjava.vscode-java-pack",
     "redhat.vscode-yaml",
-    "michaelcurrin.auto-commit-msg"
+    "michaelcurrin.auto-commit-msg",
+    "spmeesseman.vscode-taskexplorer"
   ]
 }
