@@ -1,10 +1,12 @@
 // Copyright 2023 MRDGH2821
 // Write a C program to find factorial of a number
 
+#include <stdint.h>
 #include <stdio.h>
+
 int main() {
   int no;
-  unsigned long long int fact = 1;
+  int64_t fact = 1;
   printf_s("Enter a number: ");
   scanf_s("%d", &no);
   while (no != 0) {
