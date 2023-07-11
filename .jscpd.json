@@ -10,6 +10,7 @@
     "**/.github/**",
     "**/.idea/**",
     "**/report/**",
-    "**/*.svg"
+    "**/*.svg",
+    "./.vscode/extensions.json"
   ]
 }
