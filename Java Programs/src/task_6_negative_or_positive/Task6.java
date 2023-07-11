@@ -15,15 +15,15 @@ public final class Task6 {
    * @param args
    */
   public static void main(final String[] args) {
-    int a;
+    int number;
     System.out.println("Enter a number:");
 
     Scanner in = new Scanner(System.in);
     try {
-      a = in.nextInt();
-      if (a < 0) {
+      number = in.nextInt();
+      if (number < 0) {
         System.out.println("It is negative");
-      } else if (a > 0) {
+      } else if (number > 0) {
         System.out.println("It is positive");
       } else {
         System.out.println("It is zero");

@@ -15,17 +15,17 @@ public final class Task7 {
   /**
    * Accepts 5x5 Matrix Input.
    *
-   * @param p 5x5 Matrix variable
+   * @param matrix 5x5 Matrix variable
    * @return 5x5 Matrix filled with input values
    */
-  public static int[][] accept(final int[][] p) {
+  public static int[][] accept(final int[][] matrix) {
     System.out.println("Enter Matrix values: ");
     Scanner in = new Scanner(System.in);
     try {
       for (int i = 0; i < SIZE; i++) {
         for (int j = 0; j < SIZE; j++) {
           System.out.print("Matrix value at " + i + "," + j + ": ");
-          p[i][j] = in.nextInt();
+          matrix[i][j] = in.nextInt();
         }
       }
     } catch (Exception e) {
@@ -34,7 +34,7 @@ public final class Task7 {
 
       in.close();
     }
-    return p;
+    return matrix;
   }
 
   /**
@@ -43,12 +43,12 @@ public final class Task7 {
    * @param args
    */
   public static void main(final String[] args) {
-    int[][] a = new int[SIZE][SIZE];
-    int[][] b = new int[SIZE][SIZE];
+    int[][] matrixA = new int[SIZE][SIZE];
+    int[][] matrixB = new int[SIZE][SIZE];
 
     System.out.println("Matrix A:");
-    accept(a);
+    accept(matrixA);
     System.out.println("Matrix B:");
-    accept(b);
+    accept(matrixB);
   }
 }

@@ -15,21 +15,20 @@ public final class Task4 {
    * @param args
    */
   public static void main(final String[] args) {
-    double mt;
-    double inc;
+    double meter;
+    double inch;
     final double inchToMeter = 0.0254;
     System.out.println("Enter inches:");
 
     Scanner in = new Scanner(System.in);
     try {
-      inc = in.nextFloat();
-      mt = inc * inchToMeter;
-      System.out.println("Meter = " + mt);
+      inch = in.nextFloat();
+      meter = inch * inchToMeter;
+      System.out.println("Meter = " + meter);
     } catch (Exception e) {
       System.out.println("Invalid input");
     } finally {
       in.close();
     }
-
   }
 }

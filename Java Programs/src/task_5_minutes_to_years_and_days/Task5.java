@@ -21,7 +21,7 @@ public final class Task5 {
   public static void main(final String[] args) {
     int min = 0;
     int days = 0;
-    int yr = 0;
+    int year = 0;
     int mins = 0;
 
     final int minutesInDay = 1440;
@@ -36,13 +36,13 @@ public final class Task5 {
       while (min >= minutesInDay) {
         days = days + min / minutesInDay;
         while (days >= daysInYear) {
-          yr = yr + days / daysInYear;
+          year = year + days / daysInYear;
           days = days % daysInYear;
         }
         min = min % minutesInDay;
       }
       String resultInit = mins + "minutes is approximately ";
-      String resultYr = yr + " years and ";
+      String resultYr = year + " years and ";
       String resultDays = days + " days";
       String result = resultInit + resultYr + resultDays;
       System.out.println(result);

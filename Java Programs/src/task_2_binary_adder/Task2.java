@@ -31,18 +31,17 @@ public final class Task2 {
    * @param args
    */
   public static void main(final String[] args) {
-    String n1;
-    String n2;
+    String num1;
+    String num2;
     Scanner in = new Scanner(System.in);
     try {
       System.out.println("Enter 2 binary numbers:");
-      n1 = in.nextLine();
-      n2 = in.nextLine();
-      System.out.println("Output = " + addBinary(n1, n2));
+      num1 = in.nextLine();
+      num2 = in.nextLine();
+      System.out.println("Output = " + addBinary(num1, num2));
     } catch (Exception e) {
       System.out.println("Invalid input");
     } finally {
-
       in.close();
     }
   }

@@ -14,16 +14,16 @@ public final class Task3 {
    * @param args
    */
   public static void main(final String[] args) {
-    int r;
+    int remainder;
     int sum = 0;
     final int tensPlace = 10;
     System.out.println("Enter a Number:"); // prints Hello World
     Scanner in = new Scanner(System.in);
     try {
-      r = in.nextInt();
-      while (r > 0) {
-        sum = sum + r % tensPlace;
-        r = r / tensPlace;
+      remainder = in.nextInt();
+      while (remainder > 0) {
+        sum = sum + remainder % tensPlace;
+        remainder = remainder / tensPlace;
       }
       System.out.println("Sum of digits is = " + sum);
     } catch (Exception e) {
