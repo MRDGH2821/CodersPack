@@ -6,5 +6,5 @@ This repository contains all the codes that I have written during my MyCaptain C
 
 - [Python](./Python%20programs/README.md)
 - [C++](./C++%20programs/README.md)
-- [Java](./JavaPrograms/README.md)
+- [Java](./Java%20Programs/README.mdewe)
 - [C](./C%20programs/README.md)
