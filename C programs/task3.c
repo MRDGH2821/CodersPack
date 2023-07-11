@@ -4,6 +4,7 @@
 */
 
 #include <stdio.h>
+
 int main() {
   int s1, s2, s3, sum;
   float avg;

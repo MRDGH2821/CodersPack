@@ -9,6 +9,7 @@
 */
 
 #include <stdio.h>
+
 int main() {
   int no;
   printf_s("Enter a no: ");

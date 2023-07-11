@@ -20,8 +20,9 @@ int main() {
     res += pow(rem, count);
     no /= 10;
   }
-  if (res == org)
+  if (res == org) {
     printf_s("True");
-  else
+  } else {
     printf_s("False");
+  }
 }

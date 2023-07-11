@@ -6,6 +6,7 @@
 
 #include <stdio.h>
 #include <string.h>
+
 int main() {
   char fname[100], lname[100];
   printf_s("Enter first name: ");

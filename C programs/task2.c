@@ -4,6 +4,7 @@
 */
 
 #include <stdio.h>
+
 int main() {
   float f, c;
   printf_s("Enter temperature in Celsius: ");

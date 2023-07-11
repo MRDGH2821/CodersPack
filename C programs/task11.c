@@ -5,6 +5,7 @@
 */
 
 #include <stdio.h>
+
 struct book {
   char title[20];
   char author[20];

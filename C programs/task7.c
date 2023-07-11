@@ -12,8 +12,9 @@ int main() {
   strcpy_s(b, 100, a);
   strrev(b);
 
-  if (strcmp(a, b) == 0)  // Comparing input string with the reverse string
+  if (strcmp(a, b) == 0) {  // Comparing input string with the reverse string
     printf_s("Palindrome.\n");
-  else
+  } else {
     printf_s("Not a Palindrome.\n");
+  }
 }

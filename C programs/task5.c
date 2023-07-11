@@ -2,6 +2,7 @@
 // Write a C program to find the reverse of a given number
 
 #include <stdio.h>
+
 int main() {
   int num = 0, rev = 0;
   printf_s("Enter a number: ");

@@ -8,6 +8,7 @@
 */
 
 #include <stdio.h>
+
 int main() {
   float f, c;
   int ch;
