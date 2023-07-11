@@ -45,5 +45,6 @@
     "stdexcept": "cpp",
     "streambuf": "cpp",
     "typeinfo": "cpp"
-  }
+  },
+  "java.checkstyle.configuration": "/sun_checks.xml"
 }
